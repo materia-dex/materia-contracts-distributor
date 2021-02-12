@@ -1,7 +1,4 @@
-# @uniswap/merkle-distributor
-
-[![Tests](https://github.com/Uniswap/merkle-distributor/workflows/Tests/badge.svg)](https://github.com/Uniswap/merkle-distributor/actions?query=workflow%3ATests)
-[![Lint](https://github.com/Uniswap/merkle-distributor/workflows/Lint/badge.svg)](https://github.com/Uniswap/merkle-distributor/actions?query=workflow%3ALint)
+# @materia-dex/materia-contracts-distributor
 
 # Local Development
 
@@ -14,6 +11,10 @@ The following assumes the use of `node@>=10`.
 ## Compile Contracts
 
 `yarn compile`
+
+## Generate Merkle Tree
+
+`yarn generate-merkle-root --input ../materia-retroqueries/results/airdrop.json > merkle.json`
 
 ## Run Tests
 
