@@ -1,5 +1,7 @@
 # Distributor (airdrop)
 
+This repository contains the contracts to make GILs claimable for a set of people.
+
 The following assumes the use of `node@>=10`.
 
 ## Install Dependencies
